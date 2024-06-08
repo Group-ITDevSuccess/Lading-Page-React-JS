@@ -9,6 +9,7 @@ import {Services} from "./components/Services";
 import {Gallery} from "./components/Gallery";
 import {Testimonials} from "./components/Testimonials";
 import {Team} from "./components/Team";
+import {Contact} from "./components/Contact";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -32,6 +33,7 @@ const App = () => {
             <Gallery data={landingPageData.Gallery} />
             <Testimonials data={landingPageData.Testimonials} />
             <Team data={landingPageData.Team} />
+            <Contact data={landingPageData.Contact} />
         </div>
     )
 }
