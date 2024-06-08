@@ -5,6 +5,7 @@ import {Navigation} from "./components/Navigation";
 import {Header} from "./components/Header";
 import {Features} from "./components/Features";
 import {About} from "./components/About";
+import {Services} from "./components/Services";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -24,6 +25,7 @@ const App = () => {
             <Header data={landingPageData.Header} />
             <Features data={landingPageData.Features} />
             <About data={landingPageData.About} />
+            <Services data={landingPageData.Services} />
         </div>
     )
 }
